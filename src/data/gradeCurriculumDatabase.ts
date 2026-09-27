@@ -472,6 +472,60 @@ export const GRADE_3_TIENG_VIET: WeeklySubjectLessons = {
     5: { title: "Bài 6: Gió heo may (Tiết 1: Đọc)", sub: "Đọc", note: "Cơn gió nhẹ đầu mùa mang hơi thở se lạnh của mùa đông sắp tới." },
     6: { title: "Bài 6: Gió heo may (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Đọc diễn cảm giọng trầm ấm, lắng đọng." },
     7: { title: "Bài 6: Gió heo may (Tiết 3: Kể chuyện: Chiếc gương kì diệu)", sub: "Nói và nghe", note: "Kể từng đoạn câu chuyện dựa theo tranh minh họa gợi ý." },
+  },
+  4: {
+    1: { title: "Bài 7: Mùa hè lấp lánh (Tiết 1: Đọc)", sub: "Đọc", note: "Cảnh sắc thiên nhiên mùa hè tươi đẹp và những trải nghiệm thú vị." },
+    2: { title: "Bài 7: Mùa hè lấp lánh (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Luyện đọc diễn cảm khổ thơ giàu hình ảnh và nhịp điệu." },
+    3: { title: "Bài 7: Mùa hè lấp lánh (Tiết 3: Viết: Ôn chữ hoa E, Ê)", sub: "Viết", note: "Rèn kĩ năng viết hoa E, Ê và câu ứng dụng chuẩn nét." },
+    4: { title: "Bài 7: Mùa hè lấp lánh (Tiết 4: LTVC: Mở rộng vốn từ Mùa hè)", sub: "LTVC", note: "Các từ ngữ chỉ hoạt động vui chơi và thời tiết mùa hè." },
+    5: { title: "Bài 8: Tạm biệt mùa hè (Tiết 1: Đọc)", sub: "Đọc", note: "Cảm xúc bâng khuâng khi mùa hè khép lại đón chào năm học mới." },
+    6: { title: "Bài 8: Tạm biệt mùa hè (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Đọc hiểu ý nghĩa và những kỉ niệm sâu sắc trong mùa hè." },
+    7: { title: "Bài 8: Tạm biệt mùa hè (Tiết 3: Viết đoạn văn về một kỉ niệm mùa hè)", sub: "Viết", note: "Viết đoạn văn 5 câu kể về một hoạt động mùa hè em yêu thích." },
+  },
+  5: {
+    1: { title: "Bài 9: Đi học vui sao (Tiết 1: Đọc)", sub: "Đọc", note: "Niềm vui mỗi sớm mai cắp sách đến trường cùng bè bạn." },
+    2: { title: "Bài 9: Đi học vui sao (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Học thuộc lòng bài thơ và tìm hiểu các hình ảnh so sánh độc đáo." },
+    3: { title: "Bài 9: Đi học vui sao (Tiết 3: Viết: Ôn chữ hoa G)", sub: "Viết", note: "Tập viết chữ hoa G và câu ứng dụng: Gần mực thì đen, gần đèn thì rạng." },
+    4: { title: "Bài 9: Đi học vui sao (Tiết 4: LTVC: Từ ngữ chỉ trường học, lớp học)", sub: "LTVC", note: "Mở rộng vốn từ về thầy cô, lớp học, đồ dùng dạy học." },
+    5: { title: "Bài 10: Con đường đến trường (Tiết 1: Đọc)", sub: "Đọc", note: "Vẻ đẹp của con đường làng thân quen đưa em đến lớp mỗi ngày." },
+    6: { title: "Bài 10: Con đường đến trường (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Đọc hiểu tình cảm gắn bó của học trò với quê hương trường lớp." },
+    7: { title: "Bài 10: Con đường đến trường (Tiết 3: Đọc mở rộng)", sub: "Đọc mở rộng", note: "Đọc truyện hoặc thơ về tình bạn và trường lớp mến thương." },
+  },
+  6: {
+    1: { title: "Bài 11: Lời giải toán đặc biệt (Tiết 1: Đọc)", sub: "Đọc", note: "Sự thông minh, sáng tạo của nhà thơ Huy-gô thời niên thiếu." },
+    2: { title: "Bài 11: Lời giải toán đặc biệt (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Luyện đọc diễn cảm và cảm nhận tinh thần say mê học tập." },
+    3: { title: "Bài 11: Lời giải toán đặc biệt (Tiết 3: Viết: Ôn chữ hoa H)", sub: "Viết", note: "Viết con chữ hoa H và câu ứng dụng đúng mẫu." },
+    4: { title: "Bài 11: Lời giải toán đặc biệt (Tiết 4: LTVC: Câu kể Ai là gì?)", sub: "LTVC", note: "Nhận biết bộ phận trả lời cho câu hỏi Ai? và Là gì?" },
+    5: { title: "Bài 12: Bài tập làm văn (Tiết 1: Đọc)", sub: "Đọc", note: "Bài học về sự trung thực giữa lời nói và việc làm giúp đỡ mẹ." },
+    6: { title: "Bài 12: Bài tập làm văn (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Đọc hiểu diễn biến tâm trạng của bạn nhỏ Cô-li-a." },
+    7: { title: "Bài 12: Bài tập làm văn (Tiết 3: Viết đoạn văn kể lại việc em làm ở nhà)", sub: "Viết", note: "Viết đoạn văn 4-5 câu kể việc tự giác giúp đỡ cha mẹ việc nhà." },
+  },
+  7: {
+    1: { title: "Bài 13: Bàn tay cô giáo (Tiết 1: Đọc)", sub: "Đọc", note: "Sự khéo léo của đôi bàn tay cô giáo tạo nên bức tranh thiên nhiên tuyệt đẹp." },
+    2: { title: "Bài 13: Bàn tay cô giáo (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Học thuộc lòng bài thơ và cảm nhận tình yêu thương của cô." },
+    3: { title: "Bài 13: Bàn tay cô giáo (Tiết 3: Viết: Ôn chữ hoa I, K)", sub: "Viết", note: "Rèn chữ hoa I, K và câu thành ngữ, tục ngữ ứng dụng." },
+    4: { title: "Bài 13: Bàn tay cô giáo (Tiết 4: LTVC: Từ ngữ chỉ hoạt động, trạng thái)", sub: "LTVC", note: "Nhận biết động từ chỉ hoạt động của thầy cô và học sinh." },
+    5: { title: "Bài 14: Cuộc họp của chữ viết (Tiết 1: Đọc)", sub: "Đọc", note: "Câu chuyện ngộ nghĩnh về tầm quan trọng của các dấu câu trong bài viết." },
+    6: { title: "Bài 14: Cuộc họp của chữ viết (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Luyện đọc phân vai bác chữ A, dấu chấm, dấu phẩy." },
+    7: { title: "Bài 14: Cuộc họp của chữ viết (Tiết 3: Nói và nghe: Kể chuyện)", sub: "Nói và nghe", note: "Tập kể lại câu chuyện Cuộc họp của chữ viết theo tranh." },
+  },
+  8: {
+    1: { title: "Bài 15: Thư viện lớp tôi (Tiết 1: Đọc)", sub: "Đọc", note: "Phong trào xây dựng góc thư viện lớp học phong phú, thân thiện." },
+    2: { title: "Bài 15: Thư viện lớp tôi (Tiết 2: Đọc tiếp)", sub: "Đọc", note: "Đọc hiểu ý thức giữ gìn sách truyện và văn hóa đọc sách." },
+    3: { title: "Bài 15: Thư viện lớp tôi (Tiết 3: Viết: Ôn chữ hoa L)", sub: "Viết", note: "Viết con chữ hoa L và câu ca dao ứng dụng: Luyện mãi thành tài." },
+    4: { title: "Bài 15: Thư viện lớp tôi (Tiết 4: LTVC: Dấu gạch ngang)", sub: "LTVC", note: "Tác dụng của dấu gạch ngang dùng để đánh dấu chỗ bắt đầu lời nói nhân vật." },
+    5: { title: "Bài 16: Ngày em vào Đội (Ôn tập chủ điểm: Tiết 1)", sub: "Đọc", note: "Củng cố kiến thức các bài đọc chủ điểm Mái trường mến yêu." },
+    6: { title: "Bài 16: Ngày em vào Đội (Ôn tập chủ điểm: Tiết 2)", sub: "Đọc", note: "Luyện đọc diễn cảm nâng cao và trả lời câu hỏi tổng hợp." },
+    7: { title: "Bài 16: Viết đoạn văn giới thiệu góc học tập của em", sub: "Viết", note: "Miêu tả bàn học, giá sách và thói quen học tập của bản thân." },
+  },
+  9: {
+    1: { title: "Ôn tập giữa học kì 1: Tiết 1 (Đọc)", sub: "Ôn tập", note: "Kiểm tra kĩ năng đọc thành tiếng và trả lời câu hỏi bài đọc tuần 1 - 4." },
+    2: { title: "Ôn tập giữa học kì 1: Tiết 2 (Luyện từ và câu)", sub: "Ôn tập", note: "Ôn tập từ chỉ đặc điểm, từ chỉ hoạt động và câu Ai là gì?" },
+    3: { title: "Ôn tập giữa học kì 1: Tiết 3 (Viết chính tả)", sub: "Ôn tập", note: "Nghe - viết đoạn văn bài đọc đã học, rèn chính tả sạch đẹp." },
+    4: { title: "Ôn tập giữa học kì 1: Tiết 4 (Đọc)", sub: "Ôn tập", note: "Kiểm tra kĩ năng đọc hiểu các bài thơ, bài văn tuần 5 - 8." },
+    5: { title: "Ôn tập giữa học kì 1: Tiết 5 (Luyện từ và câu)", sub: "Ôn tập", note: "Thực hành biện pháp so sánh và dấu câu (dấu chấm, dấu gạch ngang)." },
+    6: { title: "Ôn tập giữa học kì 1: Tiết 6 (Viết đoạn văn)", sub: "Ôn tập", note: "Viết đoạn văn 5-7 câu kể về việc tốt em đã làm giúp bạn." },
+    7: { title: "Kiểm tra định kì giữa học kì 1: Đọc hiểu và Viết", sub: "Kiểm tra", note: "Đánh giá năng lực ngôn ngữ giữa học kì 1 theo chuẩn CV 2345." },
   }
 };
 
@@ -496,7 +550,162 @@ export const GRADE_3_TOAN: WeeklySubjectLessons = {
     3: { title: "Bài 5: Bảng nhân 3, Bảng chia 3 (Tiết 3: Luyện tập thực hành)", note: "Giải bài toán có lời văn liên quan đến gấp lên hoặc giảm đi 3 lần." },
     4: { title: "Bài 6: Bảng nhân 4, Bảng chia 4 (Tiết 1: Thành lập bảng nhân 4)", note: "Đếm thêm 4 và học thuộc lòng bảng nhân 4." },
     5: { title: "Bài 6: Bảng nhân 4, Bảng chia 4 (Tiết 2: Thành lập bảng chia 4)", note: "Thực hành chia đều số đồ vật vào 4 hộp quà." },
+  },
+  4: {
+    1: { title: "Bài 6: Bảng nhân 4, Bảng chia 4 (Tiết 3: Luyện tập chung)", note: "Rèn kĩ năng tính nhẩm bảng nhân 4 và bảng chia 4." },
+    2: { title: "Bài 7: Ôn tập hình học và đo lường (Tiết 1: Điểm, đoạn thẳng, đường gấp khúc)", note: "Đo độ dài đoạn thẳng và tính độ dài đường gấp khúc." },
+    3: { title: "Bài 7: Ôn tập hình học và đo lường (Tiết 2: Ba điểm thẳng hàng, hình tam giác, hình tứ giác)", note: "Nhận biết ba điểm cùng nằm trên một đường thẳng." },
+    4: { title: "Bài 8: Luyện tập chung (Tiết 1: Củng cố phép tính cộng trừ nhân chia)", note: "Thứ tự thực hiện phép tính và giải toán có lời văn." },
+    5: { title: "Bài 8: Luyện tập chung (Tiết 2: Thực hành ứng dụng toán học thực tế)", note: "Tính chu vi tam giác, tứ giác và giải bài toán thực tiễn." },
+  },
+  5: {
+    1: { title: "Bài 9: Bảng nhân 6, Bảng chia 6 (Tiết 1: Thành lập bảng nhân 6)", note: "Đếm thêm 6 và ghi nhớ bảng nhân 6 qua trò chơi tiếp sức." },
+    2: { title: "Bài 9: Bảng nhân 6, Bảng chia 6 (Tiết 2: Thành lập bảng chia 6)", note: "Vận dụng bảng nhân 6 để hình thành bảng chia 6." },
+    3: { title: "Bài 9: Bảng nhân 6, Bảng chia 6 (Tiết 3: Luyện tập thực hành)", note: "Tính giá trị biểu thức và giải toán liên quan đến bảng chia 6." },
+    4: { title: "Bài 10: Bảng nhân 7, Bảng chia 7 (Tiết 1: Thành lập bảng nhân 7)", note: "Đếm thêm 7 và học thuộc lòng các phép tính 7 x 1 đến 7 x 10." },
+    5: { title: "Bài 10: Bảng nhân 7, Bảng chia 7 (Tiết 2: Thành lập bảng chia 7)", note: "Dựa vào bảng nhân 7 tìm thương của phép chia cho 7." },
+  },
+  6: {
+    1: { title: "Bài 10: Bảng nhân 7, Bảng chia 7 (Tiết 3: Luyện tập chung)", note: "Củng cố phản xạ tính nhẩm bảng 6 và bảng 7." },
+    2: { title: "Bài 11: Bảng nhân 8, Bảng chia 8 (Tiết 1: Thành lập bảng nhân 8)", note: "Đếm thêm 8 và thuộc lòng bảng nhân 8." },
+    3: { title: "Bài 11: Bảng nhân 8, Bảng chia 8 (Tiết 2: Thành lập bảng chia 8)", note: "Từ phép nhân tương ứng suy ra phép chia cho 8." },
+    4: { title: "Bài 11: Bảng nhân 8, Bảng chia 8 (Tiết 3: Luyện tập)", note: "Giải toán có lời văn liên quan đến gấp một số lên 8 lần." },
+    5: { title: "Bài 12: Bảng nhân 9, Bảng chia 9 (Tiết 1: Thành lập bảng nhân 9)", note: "Quy luật chữ số hàng chục và hàng đơn vị của tích trong bảng nhân 9." },
+  },
+  7: {
+    1: { title: "Bài 12: Bảng nhân 9, Bảng chia 9 (Tiết 2: Thành lập bảng chia 9)", note: "Học thuộc lòng bảng chia 9 và làm bài tập áp dụng." },
+    2: { title: "Bài 12: Bảng nhân 9, Bảng chia 9 (Tiết 3: Luyện tập)", note: "Trò chơi tìm nhà cho thỏ củng cố bảng nhân chia 9." },
+    3: { title: "Bài 13: Tìm một trong các phần bằng nhau của một số (Tiết 1)", note: "Muốn tìm một phần mấy của một số ta lấy số đó chia cho số phần." },
+    4: { title: "Bài 13: Tìm một trong các phần bằng nhau của một số (Tiết 2: Luyện tập)", note: "Giải bài toán thực tế: tìm 1/2, 1/3, 1/4 số quả cam." },
+    5: { title: "Bài 14: Một phần mấy (Tiết 1: Khái niệm 1/2, 1/3, 1/4, 1/5)", note: "Chia một hình thành các phần bằng nhau và tô màu 1 phần." },
+  },
+  8: {
+    1: { title: "Bài 14: Một phần mấy (Tiết 2: Nhận biết 1/6, 1/7, 1/8, 1/9)", note: "Quan sát hình vẽ và chỉ ra hình đã tô màu một phần mấy." },
+    2: { title: "Bài 14: Một phần mấy (Tiết 3: Luyện tập thực hành)", note: "Giải bài toán có lời văn liên quan đến phân số đơn vị." },
+    3: { title: "Bài 15: Luyện tập chung (Tiết 1: Củng cố bảng nhân, bảng chia từ 6 đến 9)", note: "Rèn kĩ năng tính toán chính xác và nhanh nhẹn." },
+    4: { title: "Bài 15: Luyện tập chung (Tiết 2: Vận dụng giải toán thực tiễn)", note: "Bài toán mua sắm, chia kẹo và xếp hàng vào hộp." },
+    5: { title: "Bài 16: Điểm ở giữa, trung điểm của đoạn thẳng (Tiết 1)", note: "Khái niệm điểm ở giữa và trung điểm chia đoạn thẳng thành hai phần bằng nhau." },
+  },
+  9: {
+    1: { title: "Bài 16: Điểm ở giữa, trung điểm của đoạn thẳng (Tiết 2: Thực hành xác định trung điểm)", note: "Dùng thước có vạch chia xăng-ti-mét xác định trung điểm." },
+    2: { title: "Bài 17: Hình tròn, tâm, bán kính, đường kính (Tiết 1: Nhận biết hình tròn và tâm O)", note: "Khái niệm bán kính OM, đường kính AB đi qua tâm O; AB = 2 x OM." },
+    3: { title: "Bài 17: Hình tròn, tâm, bán kính, đường kính (Tiết 2: Thực hành sử dụng com-pa vẽ hình tròn)", note: "Cầm com-pa đúng tư thế và xoay com-pa tạo đường tròn đẹp." },
+    4: { title: "Ôn tập giữa học kì 1: Củng cố phép nhân, phép chia trong bảng", note: "Ôn luyện bảng nhân chia từ 2 đến 9 và thứ tự tính." },
+    5: { title: "Ôn tập giữa học kì 1: Hình học và giải toán có lời văn", note: "Củng cố trung điểm, hình tròn và giải bài toán bằng hai phép tính." },
   }
+};
+
+// TỰ NHIÊN VÀ XÃ HỘI 3: 2 tiết / tuần
+export const GRADE_3_TNXH: WeeklySubjectLessons = {
+  1: {
+    1: { title: "Bài 1: Họ hàng nội, ngoại (Tiết 1: Nhận biết các thành viên họ nội, họ ngoại)", note: "Ông bà nội, cô dì chú bác bên nội và bên ngoại." },
+    2: { title: "Bài 1: Họ hàng nội, ngoại (Tiết 2: Thể hiện tình cảm gắn bó và xưng hô đúng mực)", note: "Xưng hô lễ phép, yêu quý và tôn trọng họ hàng hai bên." }
+  },
+  2: {
+    1: { title: "Bài 2: Một số ngày kỉ niệm, sự kiện của gia đình (Tiết 1: Kể tên các ngày kỉ niệm)", note: "Ngày sinh nhật, ngày cưới bố mẹ, ngày mừng thọ ông bà." },
+    2: { title: "Bài 2: Một số ngày kỉ niệm, sự kiện của gia đình (Tiết 2: Ý nghĩa của các sự kiện gia đình)", note: "Gắn kết tình cảm yêu thương giữa các thế hệ trong gia đình." }
+  },
+  3: {
+    1: { title: "Bài 3: Phòng tránh hỏa hoạn khi ở nhà (Tiết 1: Nguyên nhân gây cháy và nguy cơ tiềm ẩn)", note: "Bếp gas, bàn là, ổ cắm điện, diêm, nến và bật lửa." },
+    2: { title: "Bài 3: Phòng tránh hỏa hoạn khi ở nhà (Tiết 2: Kĩ năng xử lý và thoát hiểm an toàn khi có cháy)", note: "KNS & ANQP: Bò thấp người, dùng khăn ướt bịt mũi miệng, gọi 114." }
+  },
+  4: {
+    1: { title: "Bài 4: Giữ vệ sinh xung quanh nhà ở (Tiết 1: Sự cần thiết giữ sạch khuôn viên nhà ở)", note: "Quét dọn sân vườn, khơi thông cống rãnh tránh muỗi sinh sôi." },
+    2: { title: "Bài 4: Giữ vệ sinh xung quanh nhà ở (Tiết 2: Thực hành làm việc nhà vừa sức)", note: "Tự giác quét nhà, lau bàn ghế, đổ rác đúng nơi quy định." }
+  },
+  5: {
+    1: { title: "Bài 5: Ôn tập chủ đề Gia đình (Tiết 1: Hệ thống hóa kiến thức các thành viên và sự kiện)", note: "Vẽ sơ đồ cây gia đình và các thói quen sinh hoạt văn minh." },
+    2: { title: "Bài 5: Ôn tập chủ đề Gia đình (Tiết 2: Xử lý các tình huống thực tiễn trong gia đình)", note: "Ứng xử khéo léo khi nhà có khách hoặc khi cha mẹ bận việc." }
+  },
+  6: {
+    1: { title: "Bài 6: Truyền thống trường em (Tiết 1: Lịch sử thành lập và thành tích của nhà trường)", note: "Tìm hiểu truyền thống dạy tốt - học tốt của trường TH Tân Thạnh." },
+    2: { title: "Bài 6: Truyền thống trường em (Tiết 2: Niềm tự hào và trách nhiệm giữ gìn truyền thống)", note: "Phấn đấu học chăm, rèn luyện nếp sống văn minh làm rạng danh trường." }
+  },
+  7: {
+    1: { title: "Bài 7: Giữ an toàn và vệ sinh ở trường (Tiết 1: Nhận biết những tình huống nguy hiểm ở trường)", note: "Tránh chạy nhảy xô đẩy ở cầu thang, không nghịch cành cây, đồ sắt nhọn." },
+    2: { title: "Bài 7: Giữ an toàn và vệ sinh ở trường (Tiết 2: Thực hiện các hành vi văn minh, an toàn)", note: "Bỏ rác vào thùng, giữ gìn nhà vệ sinh trường học sạch sẽ." }
+  },
+  8: {
+    1: { title: "Bài 8: Khảo sát sự an toàn và vệ sinh trường học (Tiết 1: Lập phiếu khảo sát các khu vực)", note: "Khảo sát sân chơi, bãi tập, hành lang và lớp học." },
+    2: { title: "Bài 8: Khảo sát sự an toàn và vệ sinh trường học (Tiết 2: Báo cáo kết quả và đề xuất giải pháp)", note: "Trình bày kiến nghị giữ gìn sân trường xanh - sạch - đẹp." }
+  },
+  9: {
+    1: { title: "Bài 9: Ôn tập chủ đề Trường học (Tiết 1: Tổng kết kiến thức về trường học an toàn)", note: "Củng cố các quy tắc an toàn và văn hóa ứng xử học đường." },
+    2: { title: "Bài 9: Ôn tập chủ đề Trường học (Tiết 2: Trưng bày tranh ảnh về mái trường mến yêu)", note: "Vẽ tranh hoặc làm tập san thể hiện tình cảm với thầy cô, bạn bè." }
+  }
+};
+
+// HOẠT ĐỘNG TRẢI NGHIỆM 3: 3 tiết / tuần
+export const GRADE_3_HDTN: WeeklySubjectLessons = {
+  1: {
+    1: { title: "Sinh hoạt dưới cờ: LỄ KHAI GIẢNG NĂM HỌC MỚI - NỤ CƯỜI HÂN HOAN TỰU TRƯỜNG", sub: "Sinh hoạt dưới cờ", note: "Nghi lễ chào cờ đầu năm và phát động thi đua năm học mới." },
+    2: { title: "HĐGDCĐ: LỚP HỌC THÂN THIỆN - BẦU HỘI ĐỒNG TỰ QUẢN LỚP 3C", sub: "Giáo dục theo chủ đề", note: "Xây dựng nội quy lớp và cam kết thực hiện nếp sống văn minh cùng Thầy Sang." },
+    3: { title: "Sinh hoạt lớp: SƠ KẾT TUẦN 1 - PHÂN CÔNG TỔ TRƯỞNG VÀ NHIỆM VỤ TRỰC NHẬT", sub: "Sinh hoạt lớp", note: "Bầu ban cán sự tổ, củng cố nề nếp học tập và an toàn giao thông." },
+  },
+  2: {
+    1: { title: "Sinh hoạt dưới cờ: THÁNG AN TOÀN GIAO THÔNG - ĐI BỘ VÀ QUA ĐƯỜNG AN TOÀN", sub: "Sinh hoạt dưới cờ", note: "Tuyên truyền chấp hành luật an toàn giao thông trước cổng trường." },
+    2: { title: "HĐGDCĐ: EM VÀ NHỮNG NGƯỜI BẠN - TÔN TRỌNG NÉT KHÁC BIỆT CỦA BẠN BÈ", sub: "Giáo dục theo chủ đề", note: "Biết lắng nghe, chia sẻ và không trêu chọc bạn bè." },
+    3: { title: "Sinh hoạt lớp: SƠ KẾT TUẦN 2 & VĂN HÓA GIAO THÔNG KHI ĐI XE ĐẠP, XE MÁY ĐỘI MŨ BẢO HIỂM", sub: "Sinh hoạt lớp", note: "Đánh giá thi đua tổ và thực hành đội mũ bảo hiểm đúng quy cách." },
+  },
+  3: {
+    1: { title: "Sinh hoạt dưới cờ: NGÀY HỘI VUI TẾT TRUNG THU - ĐÊM HỘI TRĂNG RẰM TUỔI THƠ", sub: "Sinh hoạt dưới cờ", note: "Giao lưu văn nghệ thiếu nhi và phá cỗ trung thu toàn trường." },
+    2: { title: "HĐGDCĐ: LÀM LỒNG ĐÈN TRUNG THU SÁNG TẠO VÀ TRANG TRÍ MÂM CỖ TRUYỀN THỐNG", sub: "Giáo dục theo chủ đề", note: "Trải nghiệm khéo tay hay làm từ vật liệu tái chế bảo vệ môi trường." },
+    3: { title: "Sinh hoạt lớp: CÂN BẰNG CẢM XÚC - CHIA SẺ NIỀM VUI VÀ SƠ KẾT TUẦN 3", sub: "Sinh hoạt lớp", note: "Rèn kĩ năng làm chủ cảm xúc, đoàn kết yêu thương bạn bè trong lớp 3C." },
+  },
+  4: {
+    1: { title: "Sinh hoạt dưới cờ: TUYÊN DƯƠNG HOA ĐIỂM 10 VÀ GƯƠNG NGƯỜI TỐT VIỆC TỐT", sub: "Sinh hoạt dưới cờ", note: "Khen ngợi học sinh chăm ngoan, tiến bộ vượt bậc trong tuần." },
+    2: { title: "HĐGDCĐ: RÈN TÍNH TỰ LẬP - TỰ GIÁC HOÀN THÀNH VIỆC HỌC VÀ VIỆC NHÀ", sub: "Giáo dục theo chủ đề", note: "Hình thành thói quen tự sắp xếp sách vở, đồ dùng học tập ngăn nắp." },
+    3: { title: "Sinh hoạt lớp: SƠ KẾT TUẦN 4 & XÂY DỰNG GÓC HỌC TẬP GỌN GÀNG TẠI NHÀ", sub: "Sinh hoạt lớp", note: "Bình bầu tổ xuất sắc và trao đổi kinh nghiệm học tập hiệu quả." },
+  },
+  5: {
+    1: { title: "Sinh hoạt dưới cờ: TUẦN LỄ HƯỞNG ỨNG HỌC TẬP SUỐT ĐỜI - VĂN HÓA ĐỌC SÁCH", sub: "Sinh hoạt dưới cờ", note: "Phát động phong trào đọc sách và quyên góp sách cho tủ sách lớp." },
+    2: { title: "HĐGDCĐ: THỜI GIAN BIỂU CỦA EM - QUẢN LÝ THỜI GIAN HỌC VÀ CHƠI HỢP LÍ", sub: "Giáo dục theo chủ đề", note: "Lập bảng thời gian biểu cá nhân trong ngày khoa học." },
+    3: { title: "Sinh hoạt lớp: SƠ KẾT TUẦN 5 & PHONG TRÀO 'ĐÔI BẠN CÙNG TIẾN' LỚP 3C", sub: "Sinh hoạt lớp", note: "Khen ngợi các cặp bạn cùng tiến giúp nhau vượt khó học tốt." },
+  },
+  6: {
+    1: { title: "Sinh hoạt dưới cờ: CHỦ ĐIỂM EM YÊU THỦ ĐÔ VÀ LỊCH SỬ DÂN TỘC VIỆT NAM", sub: "Sinh hoạt dưới cờ", note: "Kỉ niệm truyền thống anh hùng dựng nước và giữ nước." },
+    2: { title: "HĐGDCĐ: EM YÊU MÁI TRƯỜNG - BẢO VỆ CỦA CÔNG VÀ GIỮ VỆ SINH LỚP HỌC", sub: "Giáo dục theo chủ đề", note: "Ý thức giữ gìn bàn ghế, tường hoa và không xả rác bừa bãi." },
+    3: { title: "Sinh hoạt lớp: SƠ KẾT TUẦN 6 & LAU DỌN BÀN GHẾ, CHĂM SÓC CÂY XANH LỚP 3C", sub: "Sinh hoạt lớp", note: "Tổng kết nề nếp thi đua và chăm sóc bồn hoa măng non của lớp." },
+  }
+};
+
+// ĐẠO ĐỨC 3: 1 tiết / tuần
+export const GRADE_3_DAO_DUC: WeeklySubjectLessons = {
+  1: { 1: { title: "Bài 1: Chào cờ và hát Quốc ca (Tiết 1: Ý nghĩa của nghi lễ chào cờ)", note: "Lòng tự hào dân tộc, tư thế đứng nghiêm trang hướng về Quốc kì." } },
+  2: { 1: { title: "Bài 1: Chào cờ và hát Quốc ca (Tiết 2: Thực hành nghi lễ chào cờ và hát Quốc ca)", note: "Hát đúng giai điệu, lời ca hùng tráng của bài Tiến quân ca." } },
+  3: { 1: { title: "Bài 2: Tự hào truyền thống trường em (Tiết 1: Tìm hiểu các tấm gương và thành tích)", note: "Tự hào về bề dày lịch sử và truyền thống hiếu học của trường." } },
+  4: { 1: { title: "Bài 2: Tự hào truyền thống trường em (Tiết 2: Giữ gìn và phát huy truyền thống tốt đẹp)", note: "Việc làm cụ thể: chăm chỉ học tập, vâng lời thầy cô giáo." } },
+  5: { 1: { title: "Bài 3: Kính trọng thầy giáo, cô giáo (Tiết 1: Công lao dạy dỗ của thầy cô)", note: "Thầy cô tận tụy truyền thụ tri thức và uốn nắn nhân cách học trò." } },
+  6: { 1: { title: "Bài 3: Kính trọng thầy giáo, cô giáo (Tiết 2: Lễ phép và bày tỏ lòng biết ơn thầy cô)", note: "Chào hỏi lễ phép, vâng lời và thi đua hoa điểm 10 dâng tặng thầy cô." } },
+  7: { 1: { title: "Bài 4: Yêu quý bạn bè (Tiết 1: Tình bạn trong sáng và sự quan tâm sẻ chia)", note: "Bạn bè gắn bó thân thiết, giúp đỡ nhau trong học tập và rèn luyện." } },
+  8: { 1: { title: "Bài 4: Yêu quý bạn bè (Tiết 2: Xử lý tình huống khi bạn bè gặp khó khăn)", note: "Không xa lánh, trêu chọc bạn khuyết tật hay bạn có hoàn cảnh khó khăn." } },
+  9: { 1: { title: "Ôn tập giữa học kì 1: Củng cố các chuẩn mực hành vi đạo đức", note: "Đánh giá sự tiến bộ trong lễ phép, kỷ luật và tình cảm bạn bè." } }
+};
+
+// CÔNG NGHỆ 3: 1 tiết / tuần
+export const GRADE_3_CONG_NGHE: WeeklySubjectLessons = {
+  1: { 1: { title: "Bài 1: Tự nhiên và công nghệ (Tiết 1: Phân biệt đối tượng tự nhiên và sản phẩm công nghệ)", note: "Mặt trời, cây cối, dòng sông và nhà cửa, quạt điện, tivi." } },
+  2: { 1: { title: "Bài 1: Tự nhiên và công nghệ (Tiết 2: Tác dụng to lớn của công nghệ trong cuộc sống)", note: "Công nghệ giúp cuộc sống tiện nghi, tiết kiệm sức lao động con người." } },
+  3: { 1: { title: "Bài 2: Sử dụng đèn học (Tiết 1: Các bộ phận chính của đèn học)", note: "Bóng đèn, chao đèn, thân đèn, công tắc và dây nguồn cắm điện." } },
+  4: { 1: { title: "Bài 2: Sử dụng đèn học (Tiết 2: Thao tác bật tắt và điều chỉnh góc chiếu sáng an toàn)", note: "Đặt đèn học đúng hướng tránh sấp bóng và bảo vệ thị lực." } },
+  5: { 1: { title: "Bài 3: Sử dụng quạt điện (Tiết 1: Các bộ phận và công dụng của quạt điện)", note: "Cánh quạt, lồng quạt, túp-năng xoay và các nút chỉnh tốc độ gió." } },
+  6: { 1: { title: "Bài 3: Sử dụng quạt điện (Tiết 2: Quy tắc sử dụng quạt an toàn và tiết kiệm điện)", note: "Không chạm tay vào cánh quạt, tắt quạt khi rời khỏi phòng học." } },
+  7: { 1: { title: "Bài 4: Sử dụng máy thu thanh (Tiết 1: Các chương trình phát thanh thiếu nhi)", note: "Nghe tin tức, kể chuyện cổ tích và chương trình học tập qua Radio." } },
+  8: { 1: { title: "Bài 4: Sử dụng máy thu thanh (Tiết 2: Thao tác dò kênh và chỉnh âm lượng vừa nghe)", note: "Giữ âm lượng vừa phải, không làm ồn ảnh hưởng người xung quanh." } },
+  9: { 1: { title: "Ôn tập giữa học kì 1: Nhận diện và sử dụng an toàn các thiết bị công nghệ", note: "Củng cố kĩ năng sử dụng đèn học, quạt điện và máy thu thanh." } }
+};
+
+// TIN HỌC 3: 1 tiết / tuần
+export const GRADE_3_TIN_HOC: WeeklySubjectLessons = {
+  1: { 1: { title: "Bài 1: Thông tin và quyết định (Tiết 1: Khái niệm thông tin xung quanh em)", note: "Mắt nhìn thấy chữ số, tai nghe tiếng chuông báo hiệu giờ vào lớp." } },
+  2: { 1: { title: "Bài 1: Thông tin và quyết định (Tiết 2: Thông tin giúp con người ra quyết định đúng đắn)", note: "Nhìn đèn tín hiệu giao thông màu đỏ -> quyết định dừng lại an toàn." } },
+  3: { 1: { title: "Bài 2: Khám phá máy tính (Tiết 1: Các bộ phận cơ bản của máy tính để bàn)", note: "Màn hình, thân máy (CPU), bàn phím và chuột máy tính." } },
+  4: { 1: { title: "Bài 2: Khám phá máy tính (Tiết 2: Khái niệm máy tính xách tay và máy tính bảng)", note: "Sự nhỏ gọn, tiện lợi và màn hình cảm ứng của thiết bị số hiện đại." } },
+  5: { 1: { title: "Bài 3: Bàn phím và chuột máy tính (Tiết 1: Khu vực chính của bàn phím)", note: "Hàng phím cơ sở với hai phím có gai F và J, hàng phím số, phím Space." } },
+  6: { 1: { title: "Bài 3: Bàn phím và chuột máy tính (Tiết 2: Thao tác cầm chuột và nháy chuột)", note: "Ngón trỏ đặt nút trái, ngón giữa đặt nút phải, nháy đúp và kéo thả chuột." } },
+  7: { 1: { title: "Bài 4: Làm quen với phần mềm gõ phím (Tiết 1: Tư thế ngồi gõ phím bằng 10 ngón)", note: "Lưng thẳng, mắt ngang tầm màn hình cách 40-50cm, đặt ngón tay đúng vị trí." } },
+  8: { 1: { title: "Bài 4: Làm quen với phần mềm gõ phím (Tiết 2: Luyện gõ phím hàng cơ sở)", note: "Thực hành gõ các phím A S D F G H J K L ; trên phần mềm luyện phím." } },
+  9: { 1: { title: "Ôn tập và kiểm tra kĩ năng thực hành số giữa học kì 1", note: "Đánh giá kĩ năng nhận diện bộ phận máy tính và thao tác chuột cơ bản." } }
 };
 
 // -------------------------------------------------------------------------
@@ -740,6 +949,61 @@ export function lookupDetailedCurriculumLesson(
           subSubject: "Toán",
           curriculumPeriod: (week - 1) * 5 + periodInWeek,
           integrationNotes: match.note || "Toán 3 Kết nối tri thức."
+        };
+      }
+    }
+    if (normSub.includes("tự nhiên và xã hội") || normSub.includes("tnxh")) {
+      const match = GRADE_3_TNXH[week]?.[periodInWeek];
+      if (match) {
+        return {
+          lessonTitle: match.title,
+          subSubject: "Tự nhiên và Xã hội",
+          curriculumPeriod: (week - 1) * 2 + periodInWeek,
+          integrationNotes: match.note || "Khám phá tự nhiên và xã hội Lớp 3."
+        };
+      }
+    }
+    if (normSub.includes("hoạt động trải nghiệm") || normSub.includes("hđtn")) {
+      const match = GRADE_3_HDTN[week]?.[periodInWeek];
+      if (match) {
+        return {
+          lessonTitle: match.title,
+          subSubject: match.sub || "Hoạt động trải nghiệm",
+          curriculumPeriod: (week - 1) * 3 + periodInWeek,
+          integrationNotes: match.note || "Phát triển năng lực trải nghiệm và kĩ năng sống."
+        };
+      }
+    }
+    if (normSub.includes("đạo đức") || normSub.includes("đđ")) {
+      const match = GRADE_3_DAO_DUC[week]?.[periodInWeek] || GRADE_3_DAO_DUC[week]?.[1];
+      if (match) {
+        return {
+          lessonTitle: match.title,
+          subSubject: "Đạo đức",
+          curriculumPeriod: week,
+          integrationNotes: match.note || "Bồi dưỡng chuẩn mực đạo đức lối sống lành mạnh."
+        };
+      }
+    }
+    if (normSub.includes("công nghệ") || normSub === "cn") {
+      const match = GRADE_3_CONG_NGHE[week]?.[periodInWeek] || GRADE_3_CONG_NGHE[week]?.[1];
+      if (match) {
+        return {
+          lessonTitle: match.title,
+          subSubject: "Công nghệ",
+          curriculumPeriod: week,
+          integrationNotes: match.note || "Làm quen với các sản phẩm công nghệ gia đình."
+        };
+      }
+    }
+    if (normSub.includes("tin học") || normSub === "th") {
+      const match = GRADE_3_TIN_HOC[week]?.[periodInWeek] || GRADE_3_TIN_HOC[week]?.[1];
+      if (match) {
+        return {
+          lessonTitle: match.title,
+          subSubject: "Tin học",
+          curriculumPeriod: week,
+          integrationNotes: match.note || "Rèn luyện kĩ năng số và sử dụng máy tính an toàn."
         };
       }
     }

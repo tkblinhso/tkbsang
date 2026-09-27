@@ -43,7 +43,7 @@ import { syncSchoolInfoDates, calculateWeekDateRange } from "./utils/dateHelper"
 
 export function App() {
   // 1. School & Teacher Information State - Synced with NH 2026-2027 Phân Hiệu Kiến Bình
-  const CURRENT_TKB_VERSION = "kien_binh_nh2026_2027_v2";
+  const CURRENT_TKB_VERSION = "kien_binh_nh2026_2027_thay_sang_3c_v6";
 
   const [schoolInfo, setSchoolInfo] = useState<SchoolInfo>(() => {
     const version = localStorage.getItem("th_tkb_version");
@@ -55,10 +55,12 @@ export function App() {
           const synced = syncSchoolInfoDates(parsed);
           return {
             ...synced,
-            teacherName: parsed.teacherName === "Thầy Sang" ? "Thầy Nguyễn Văn Sang" : (parsed.teacherName || "Cô Tuyết"),
+            teacherName: parsed.teacherName || "Thầy Nguyễn Văn Sang",
             teacherType: parsed.teacherType || "homeroom",
             specialistSubject: parsed.specialistSubject || "Tiếng Anh",
-            assignedClasses: parsed.assignedClasses || DEFAULT_CLASSES,
+            assignedClasses: parsed.assignedClasses || ["3C"],
+            className: parsed.className || "3C",
+            grade: parsed.grade || 3,
             principalName: parsed.principalName || "Lê Văn Hùng",
             departmentHeadName: parsed.departmentHeadName || "Trần Thị Huế",
             hasInclusiveEducation: parsed.hasInclusiveEducation ?? false,
@@ -73,15 +75,15 @@ export function App() {
 
     const defaultRange = calculateWeekDateRange(1);
     return {
-      teacherName: "Cô Tuyết",
+      teacherName: "Thầy Nguyễn Văn Sang",
       teacherType: "homeroom" as TeacherType,
       specialistSubject: "Tiếng Anh",
-      assignedClasses: DEFAULT_CLASSES,
+      assignedClasses: ["3C"],
       schoolName: "Trường Tiểu học Tân Thạnh",
       branchName: "Phân hiệu Kiến Bình",
       departmentName: "Ủy Ban Nhân Dân Xã Tân Thạnh - Phòng GD&ĐT",
-      grade: 5,
-      className: "5A",
+      grade: 3,
+      className: "3C",
       week: 1,
       academicYear: "2026 - 2027",
       startDate: defaultRange.startDate,
@@ -413,14 +415,28 @@ export function App() {
           </div>
 
           <div className="flex items-center flex-wrap gap-2">
-            {/* Quick 16 Teachers Modal Button */}
+            {/* Quick 1-click button for Thầy Nguyễn Văn Sang - Lớp 3C */}
+            <button
+              onClick={() => handleSelectTeacher("Thầy Nguyễn Văn Sang")}
+              className={`flex items-center gap-1.5 px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider border border-black shadow-[1px_1px_0px_rgba(0,0,0,1)] transition-colors cursor-pointer ${
+                schoolInfo.teacherName === "Thầy Nguyễn Văn Sang" && schoolInfo.className === "3C"
+                  ? "bg-black text-white"
+                  : "bg-amber-300 hover:bg-amber-400 text-black"
+              }`}
+              title="Đồng bộ ngay sang Thầy Nguyễn Văn Sang (Lớp 3C)"
+            >
+              <GraduationCap className="w-3.5 h-3.5 text-amber-200" />
+              <span>Thầy Sang (Lớp 3C)</span>
+            </button>
+
+            {/* Quick Teachers Modal Button */}
             <button
               onClick={() => setIsTeacherSelectModalOpen(true)}
               className="flex items-center gap-1.5 px-3 py-1.5 bg-amber-100 hover:bg-amber-200 text-amber-950 text-[11px] font-bold uppercase tracking-wider border border-black shadow-[1px_1px_0px_rgba(0,0,0,1)] transition-colors cursor-pointer"
-              title="Chọn trong danh sách 16 Giáo viên toàn trường và lập LBG - KHBD riêng biệt"
+              title={`Chọn trong danh sách ${DEFAULT_TEACHERS.length} Giáo viên toàn trường và lập LBG - KHBD riêng biệt`}
             >
               <Users className="w-3.5 h-3.5" />
-              <span>16 Giáo Viên</span>
+              <span>{DEFAULT_TEACHERS.length} Giáo Viên</span>
             </button>
 
             {/* Sync KHDH SGK Button */}

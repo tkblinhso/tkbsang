@@ -402,7 +402,7 @@ export const DEFAULT_MASTER_TIMETABLE: MasterTimetable = {
     "Thứ Năm_Sáng_2": {
       "1A1": "HĐTN (Thi)", "1A2": "TNXH (Bé Tý)", "1B": "TV", "1C": "TV",
       "2A1": "TV", "2A2": "TV", "2B": "TV", "2C": "TC Toán (Oanh)",
-      "3A1": "T.ANH (Huỳnh)", "3A2": "TV", "3B": "TV", "3C": "HĐTN (Chương)",
+      "3A1": "T.ANH (Huỳnh)", "3A2": "TV", "3B": "TV", "3C": "HĐTN",
       "4A1": "T.ANH (Loan)", "4A2": "M.THUẬT (My)", "4B": "HĐTN (Vinh)", "4C": "TV",
       "5A": "T", "5B": "HĐTN (Tranh)", "5C": "TIN HỌC (Lưu)"
     },

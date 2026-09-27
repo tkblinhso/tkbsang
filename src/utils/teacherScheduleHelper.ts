@@ -8,7 +8,8 @@ import { generateFullWeekLessonPlans } from "../data/curriculumData";
  */
 export function filterPersonalTeacherSchedule(
   items: ScheduleItem[],
-  teacherType: TeacherType = "homeroom"
+  teacherType: TeacherType = "homeroom",
+  teacherName?: string
 ): ScheduleItem[] {
   if (teacherType === "specialist") {
     // For specialist teachers, all items in their schedule are already their taught periods
@@ -23,7 +24,12 @@ export function filterPersonalTeacherSchedule(
     if (it.day === "Thứ Sáu" && (it.subject.includes("HĐTN") || it.subSubject?.includes("lớp") || it.note?.includes("Sinh hoạt"))) {
       return true;
     }
-    return !it.note || (!it.note.includes("GV Chuyên") && !it.note.includes("GV Bộ môn"));
+    if (it.subject.toUpperCase().includes("HỌP")) return false;
+    if (it.note && (it.note.includes("GV Chuyên") || it.note.includes("GV Bộ môn"))) return false;
+    if (teacherName && it.teacherName && it.teacherName !== teacherName && (it.teacherName.startsWith("Thầy") || it.teacherName.startsWith("Cô"))) {
+      return false;
+    }
+    return true;
   });
 }
 

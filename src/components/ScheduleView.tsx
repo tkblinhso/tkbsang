@@ -7,6 +7,7 @@ import {
   isSpecialistSlotInClass,
   getSpecialistTeacherShortName,
 } from "../data/defaultTimetables";
+import { filterPersonalTeacherSchedule } from "../utils/teacherScheduleHelper";
 import { 
   FileDown, 
   Plus, 
@@ -55,7 +56,7 @@ export const ScheduleView: React.FC<ScheduleViewProps> = ({
 
   const isHomeroom = schoolInfo.teacherType === "homeroom";
   const personalItems = isHomeroom
-    ? scheduleItems.filter((it) => !it.note || !it.note.includes("GV Chuyên"))
+    ? filterPersonalTeacherSchedule(scheduleItems, schoolInfo.teacherType, schoolInfo.teacherName)
     : scheduleItems;
 
   const baseItems = isHomeroom && viewScope === "personal" ? personalItems : scheduleItems;
